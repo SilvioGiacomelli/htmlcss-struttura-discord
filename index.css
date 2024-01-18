@@ -1,18 +1,55 @@
 *{
-  margin: 0;
+  margin:0;
   padding: 0;
+  box-sizing: border-box;
+  }
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
   background-color: #add8e6;
+  padding: 10px
 }
 
-.primo{
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.inner-header{
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo, .login, .debug {
+  background-color:#DAA520;
+  padding: 10px;
+  border: 2px dashed #000;
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+nav a{
+  background-color: #FFD700;
+  padding: 10px;
+  border: 2px dashed #000;
+  text-decoration: none;
+  color: #000;
+}
+
+.blu-rosa{
   background-color: #00008b;
   height: 310px;
 }
 
-.secondo{
+.bianco-doppio{
   background-color: white;
   height: 380px;
 }
