@@ -8,12 +8,14 @@ body{
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header */
+
 header{
   background-color: #add8e6;
   padding: 10px
 }
 
-.container{
+.container1{
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -37,49 +39,163 @@ nav{
 }
 
 nav a{
-  background-color: #FFD700;
   padding: 10px;
-  border: 2px dashed #000;
   text-decoration: none;
   color: #000;
 }
 
-.blu-rosa{
-  background-color: #00008b;
-  height: 310px;
+/* Fine header */
+/* Blocco blu */
+
+.container-blue {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue; /* Sfondo blu del contenitore */
+  height: 520px; /* Altezza del contenitore pari all'altezza della viewport */
 }
 
-.bianco-doppio{
-  background-color: white;
-  height: 380px;
+.square-pink {
+  width: 950px; /* Larghezza del quadrato rosa */
+  height: 420px; /* Altezza del quadrato rosa */
+  background-color: pink; /* Sfondo rosa del quadrato */
+  border: 3px dashed black; /* Bordo tratteggiato del quadrato */
 }
 
-.terzo{
-  background-color: #d3d3d3;
-  height: 380px;
+/* Fine Blocco blu */
+/* Blocco bianco */
+
+.container-white {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255); /* Sfondo blu del contenitore */
+  height: 600px; /* Altezza del contenitore pari all'altezza della viewport */
+  justify-content: center;
+  align-items: center;
 }
 
-.quarto{
-  background-color: white;
-  height: 380px;
+.square-a {
+  background-color: lightblue;
+  width: 750px;
+  height: 520px;
+  border: 3px dashed black;
+
 }
 
-.quinto{
-  height: 620px;
-  background-color:#d3d3d3;
+.square-b {
+  background-color:pink; 
+  width: 500px;
+  height: 520px;
+  border: 3px dashed black;
+
 }
 
-.sesto{
-  height: 80px;
-  background-color: #23272a;
+/* Fine Blocco bianco */
+/* Blocco grigio */
+
+.container-grey {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #D3D3D3; 
+  height: 600px; 
+  justify-content: center;
+  align-items: center;
 }
 
-.settimo{
-  height: 4px;
-  background-color:#d3d3d3;
+.square-c {
+  background-color: #FFC0CB;
+  width: 500px;
+  height: 520px;
+  border: 3px dashed black;
+
 }
+
+.square-d {
+  background-color: lightblue; 
+  width: 750px;
+  height: 520px;
+  border: 3px dashed black;
+
+}
+
+/* Fine Blocco grigio */
+/* Blocco grigio/verde */
+
+.container-grey-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: grey; /* Sfondo blu del contenitore */
+  height: 1300px; /* Altezza del contenitore pari all'altezza della viewport */
+}
+
+.square-green {
+  width: 1250px; /* Larghezza del quadrato rosa */
+  height: 940px; /* Altezza del quadrato rosa */
+  background-color: green; /* Sfondo rosa del quadrato */
+  border: 3px dashed black; /* Bordo tratteggiato del quadrato */
+}
+
+/* Fine Blocco grigio/verde */
+/* Blocco nero */
+
+.container-black {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000; 
+  height: 600px; 
+  justify-content: center;
+  align-items: center;
+}
+
+.square-e{
+  background-color: red;
+  width: 300px;
+  height: 520px;
+  border: 3px dashed black;
+}
+
+.square-f{
+  background-color: rgb(19, 158, 180);
+  width: 237.5px;
+  height: 520px;
+  border: 3px dashed rgb(255, 255, 255);
+}
+
+/* Fine Blocco nero */
+/* Spaziatura grigia*/
+
+.linea{
+  background-color: grey;
+  height: 10px;
+}
+
+/* Fine spaziatura grigia */
+/* Footer */
 
 footer{
-  height: 50px;
-  background-color: #23272a;
+  background-color: #000000;
+  padding: 10px;
 }
+
+.container2{
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: green;
+}
+
+.inner-footer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-2, .bottone {
+  background-color:#DAA520;
+  padding: 10px;
+  border: 2px dashed #000;
+}
+
+/* Fine footer */
