@@ -51,15 +51,15 @@ nav a{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: blue; /* Sfondo blu del contenitore */
-  height: 520px; /* Altezza del contenitore pari all'altezza della viewport */
+  background-color: blue; 
+  height: 520px; 
 }
 
 .square-pink {
-  width: 950px; /* Larghezza del quadrato rosa */
-  height: 420px; /* Altezza del quadrato rosa */
-  background-color: pink; /* Sfondo rosa del quadrato */
-  border: 3px dashed black; /* Bordo tratteggiato del quadrato */
+  width: 950px; 
+  height: 420px; 
+  background-color: pink; 
+  border: 3px dashed black; 
 }
 
 /* Fine Blocco blu */
@@ -69,8 +69,8 @@ nav a{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: rgb(255, 255, 255); /* Sfondo blu del contenitore */
-  height: 600px; /* Altezza del contenitore pari all'altezza della viewport */
+  background-color: rgb(255, 255, 255); 
+  height: 600px; 
   justify-content: center;
   align-items: center;
 }
@@ -127,15 +127,15 @@ nav a{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: grey; /* Sfondo blu del contenitore */
-  height: 1300px; /* Altezza del contenitore pari all'altezza della viewport */
+  background-color: grey; 
+  height: 1300px; 
 }
 
 .square-green {
-  width: 1250px; /* Larghezza del quadrato rosa */
-  height: 940px; /* Altezza del quadrato rosa */
-  background-color: green; /* Sfondo rosa del quadrato */
-  border: 3px dashed black; /* Bordo tratteggiato del quadrato */
+  width: 1250px; 
+  height: 940px; 
+  background-color: green; 
+  border: 3px dashed black; 
 }
 
 /* Fine Blocco grigio/verde */
